@@ -76,7 +76,7 @@ function ocultarAdelante() {
 
 function encriptarTexto() {
     var area3 = document.querySelector("textarea");
-    var textoFinal = "";
+    var textoFinal = ""; 
 
     for (var i = 0; i < area3.value.length; i++) {
         if (area3.value[i] == "a") {
